@@ -1,14 +1,14 @@
-# Case Study Importer (Figma Plugin)
+# JSON to Text (Figma Plugin)
 
-Import structured case study content (exported from Obsidian) and generate **one Figma text layer per line** (including headings, body lines, and list items), so you can quickly lay out a case study page.
+Import structured content (exported from Obsidian) and generate **one Figma text layer per line** (including headings, body lines, and list items), so you can quickly lay out a case study page.
 
-Companion repo (Obsidian exporter): https://github.com/meghan-lendhe/case-study-figma
+Companion repo (Markdown to JSON): https://github.com/meghan-lendhe/md-to-json
 
 ---
 
 ## What it does
 
-- Accepts JSON copied from the Obsidian exporter plugin.
+- Accepts JSON copied from the Markdown to JSON Obsidian plugin.
 - Creates text layers on the current page in reading order (stacked vertically).
 - Styles layers by block type (H1–H6, body, list) and prefixes list items with `• `.
 
@@ -33,8 +33,8 @@ Supported `type` values: `h1`–`h6`, `body`, `list`.
 
 ## Usage
 
-1. In Obsidian, run the exporter command to copy JSON to clipboard.
-2. In Figma Desktop: Plugins → Development → Case Study Importer.
+1. In Obsidian, run the plugin command to copy JSON to clipboard.
+2. In Figma Desktop: Plugins → Development → JSON to Text.
 3. Paste JSON into the plugin UI and click Import.
 4. The plugin generates text layers and selects them for quick positioning.
 

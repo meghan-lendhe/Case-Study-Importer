@@ -1,7 +1,7 @@
 {
-  "name": "Case-Study-Importer",
+  "name": "JSON to Text",
   "version": "1.0.0",
-  "description": "Your Figma Plugin",
+  "description": "Convert JSON content into text layers in Figma.",
   "main": "code.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
